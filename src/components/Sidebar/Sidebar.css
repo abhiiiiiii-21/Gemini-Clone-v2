@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300..800&display=swap');
+
+.sideBar {
+  min-height: 100vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #272A2C;
+  padding: 28px 10px;
+  transition: all 0.3s ease;
+  overflow-x: hidden;
+  width: 68px; 
+}
+
+.sideBar.extended {
+  width: 320px;
+}
+
+.menu {
+  margin-left: 13px;
+  width: 19px;
+  height: 19px;
+  display: block;
+  color: #C4C7C5;
+  cursor: pointer;
+}
+
+.menu:hover {
+  background-color: #272A2C;
+  border-radius: 50px;
+}
+
+.newChat {
+  margin-top: 59px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  background-color: #202123;
+  border-radius: 50px;
+  color: #E3E3E3;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.chat {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+}
+
+.recent {
+  display: flex;
+  flex-direction: column;
+}
+
+.recentTitle {
+  margin-top: 36px;
+  margin-left: 10px;
+  margin-bottom: 17px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+.msg {
+  height: 15px;
+  width: 15px;
+  min-width: 15px;
+}
+
+.recentEntry {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 300;
+  color: #99A1A7;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 15px 0px 15px 15px;
+  border-radius: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.recentEntry:hover {
+  background-color: #202123;
+}
+
+.bottom {
+  margin-bottom: 40px;
+  color: #A1AAAF;
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+}
