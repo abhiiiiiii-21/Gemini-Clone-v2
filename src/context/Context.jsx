@@ -20,7 +20,7 @@ const ContextProvider = (props) => {
         setRecentPrompt(input)
         const response = await main(input)
         let responseArray = response.split("**")
-        let newResponse;
+        let newResponse="";
         for (let i=0; i < responseArray.length; i++){
             if (i === 0 || i % 2 !== 1){
                 newResponse += responseArray[i]
@@ -31,6 +31,8 @@ const ContextProvider = (props) => {
         }
 
         let newResponse2 = newResponse.split("*").join('</br style="margin-top: 20px;">');
+        console.log(newResponse)
+        console.log(newResponse2)
         setResultData(newResponse2)
         setLoading(false)
         setInput("")
