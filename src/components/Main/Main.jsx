@@ -3,7 +3,7 @@ import "./Main.css"
 import profilePic from '../../assets/profile.jpg';
 import { Plus, Mic, SendHorizontal } from 'lucide-react';
 import gemini_icon from '../../assets/gemini_icon.png';
-import { Context } from '../../context/context';
+import { Context } from '../../context/Context.jsx';
 
 
 const Main = () => {
